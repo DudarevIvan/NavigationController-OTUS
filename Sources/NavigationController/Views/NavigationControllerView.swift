@@ -14,7 +14,7 @@ public struct NavigationControllerView<Content: View & NavigationTitle>: View {
    private let content: Content
    private let transitions: (push: AnyTransition, pop: AnyTransition)
    
-   public init(@ViewBuilder content: @escaping () -> Content, transition: NavigationTransition, easing: Animation = .easeInOut(duration: 0.33)) {
+   public init(@ViewBuilder _ content: @escaping () -> Content, _ transition: NavigationTransition, easing: Animation = .easeInOut(duration: 0.33)) {
       self.content = content()
       self.viewModel = .init(easing: easing)
       
