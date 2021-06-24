@@ -30,7 +30,7 @@ public struct NavigationBar: View {
             Spacer()
             Text(title)
                .foregroundColor(.white)
-               .fontWeight(.heavy)
+               //.fontWeight(.heavy)
                .offset(x: (isRoot ?  0 : -10))
             Spacer()
          }
