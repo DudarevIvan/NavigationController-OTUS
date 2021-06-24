@@ -24,7 +24,7 @@ public struct NavigationBar: View {
             if !isRoot {
                NavigationPopButton() {
                   Image(systemName: "chevron.backward")
-                     .font(Font.headline.weight(.heavy))
+                     //.font(Font.headline.weight(.heavy))
                }
             }
             Spacer()
