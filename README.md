@@ -1,3 +1,3 @@
 # NavigationController
 
-A description of this package.
+Custom Navigation Controller(Navigation View). SwiftUI.
